@@ -47,7 +47,7 @@ if(isset($result_array9[0])){
       <td width="100"align="center" valign="middle"><B><?php echo $value." 'C"; ?></B></td>
       <td width="200"align="left" valign="middle"><form id="form1" name="form1" method="post" action="/thermin.php" target="_self">
       	<label for="textfield">Új érték:</label><br>
-      	<input type="number" name="val" id="textfield" ><br>
+      	<input type="text" maxlength="4" name="val" id="textfield" ><br>
         <input type="submit" name="Submit" value="Módositás" /></form>
       </td>
     </tr>
